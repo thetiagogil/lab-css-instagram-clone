@@ -7,4 +7,99 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  background: linear-gradient(to bottom,
+      #3c6489 0%,
+      #3c6489 35%,
+      white 35%,
+      white 100%);
+}
+
+@media (max-width: 400px) {}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-box {
+  box-sizing: border-box;
+  padding: 30px;
+  width: 550px;
+}
+
+.brand-home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  border: 1px solid #3c6489;
+  box-sizing: border-box;
+  padding: 8px;
+  align-items: center;
+  width: 90px;
+  height: 37px;
+  background: linear-gradient(to top,
+      #6090bd 50%,
+      #8babc9 100%)
+}
+
+.login h3 {
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+}
+
+.login h3 a {
+  color: white;
+  text-decoration: none;
+}
+
+div section h2 {
+  margin-top: 0;
+}
+
+.text-box {
+  background-color: white;
+  font-size: 1rem;
+  border: 1px solid #EEE;
+  box-sizing: border-box;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.text-box h2 {
+  color: #3c6489;
+}
+
+footer {
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+footer ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 15px;
+  font-weight: bold;
+  color: #3c6489;
+}
+
+footer ul li a {
+  color: #3c6489;
+  text-decoration: none;
+}
+
+.footer-gray {
+  color: #b5b4b4;
 }
